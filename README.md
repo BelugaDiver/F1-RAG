@@ -34,21 +34,21 @@ This project leverages the power of AI and LangChain's SQLDatabaseToolkit to pro
 
 ### How to Run
 
-1. **Install dependencies:**
+**1. Install dependencies:**
 
 ```Bash
 cd f1-data-rag
 pip install -r requirements.txt
 ```
 
-1. **Run the backend:**
+**2. Run the backend:**
 
 ```Bash
-cd backend
-uvicorn app:app --reload
+cd api
+fastapi run
 ```
 
-1. **Run the frontend:**
+**3. Run the frontend:**
 
 ```Bash
 cd frontend
