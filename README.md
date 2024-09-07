@@ -16,10 +16,9 @@ This project leverages the power of AI and LangChain's SQLDatabaseToolkit to pro
 ## Project Structure
 
 ```
-├── backend
-│   ├── app.py
-│   ├── models.py
-│   └── utils.py
+├── api
+│   ├── main.py
+│   └── rag.py
 ├── frontend
 │   ├── src
 │   │   ├── App.js
